@@ -1,0 +1,929 @@
+.platform-admin {
+  background: #f7f8fa;
+}
+.platform-admin .sidebar {
+  overflow-y: auto;
+}
+.platform-admin .sidebar-brand-row {
+  height: 74px;
+  min-height: 74px;
+}
+.admin-workspace-switcher {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  border: 1px solid #e5ebdf;
+  border-radius: 6px;
+  padding: 10px;
+  margin: 12px 17px 26px;
+}
+.admin-workspace-switcher > span:nth-child(2) {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  gap: 4px;
+  min-width: 0;
+}
+.admin-workspace-switcher strong {
+  font-size: 11px;
+  font-weight: 600;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.admin-workspace-switcher small {
+  color: #6f7a64;
+  font-size: 9px;
+}
+.admin-workspace-switcher > svg {
+  color: #6d7b5e;
+  flex-shrink: 0;
+}
+.platform-admin .nav-group + .nav-group {
+  margin-top: 25px;
+}
+.platform-admin .nav-item {
+  height: 36px;
+  margin-bottom: 3px;
+  font-size: 11.5px;
+}
+.platform-admin .nav-label {
+  margin-bottom: 10px;
+  font-size: 8px;
+}
+.platform-admin .sidebar-bottom {
+  padding-top: 25px;
+}
+.platform-admin .sidebar-bottom-links {
+  padding-bottom: 13px;
+}
+.platform-admin .sidebar-profile {
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+.admin-website-link {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  font-size: 10px;
+  color: #6e7b5e;
+}
+.admin-website-link:hover {
+  color: #547637;
+}
+.platform-admin .topbar-right {
+  gap: 21px;
+}
+.platform-admin .topbar-profile {
+  border-left: 1px solid #e5ecdd;
+  padding-left: 18px;
+}
+.platform-admin .date-select > select {
+  border: 0;
+  background: transparent;
+  font-size: 10px;
+  color: #6c7c59;
+  padding: 0 10px;
+  height: 34px;
+}
+.metric-real-note {
+  color: #6e7a5e;
+  font-size: 9px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.platform-admin .metric-value {
+  font-size: 30px;
+}
+.admin-chart-period {
+  font-size: 9px;
+  color: #6f7a61;
+  font-weight: 400;
+  letter-spacing: 0;
+}
+.platform-admin .chart-legend {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+.platform-admin .revenue-chart {
+  height: 208px;
+}
+.platform-admin .revenue-panel,
+.platform-admin .customer-panel {
+  min-height: 331px;
+}
+.admin-donut-wrap {
+  position: relative;
+  width: 160px;
+  height: 160px;
+  margin: 14px auto 7px;
+}
+.admin-donut {
+  position: absolute;
+  inset: 3px;
+  border-radius: 50%;
+}
+.admin-donut::after {
+  content: "";
+  position: absolute;
+  inset: 21px;
+  border-radius: 50%;
+  background: white;
+}
+.platform-admin .donut-center > span {
+  font-size: 8px;
+}
+.platform-admin .donut-center > strong {
+  font-size: 28px;
+}
+.platform-admin .donut-center > small {
+  font-size: 8px;
+}
+.platform-admin .customer-legend {
+  padding-bottom: 13px;
+}
+.platform-admin .customer-legend button {
+  font-size: 9px;
+  padding: 5px 0;
+}
+.platform-admin .customer-legend strong {
+  font-size: 9px;
+}
+.admin-course-name {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  text-align: left;
+  background: transparent;
+  padding: 0;
+}
+.admin-course-name > img {
+  width: 35px;
+  height: 35px;
+  object-fit: cover;
+  border-radius: 5px;
+  flex-shrink: 0;
+}
+.admin-course-name > span {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  max-width: 240px;
+}
+.admin-course-name strong {
+  color: #546c43;
+  font-size: 11px;
+  font-weight: 500;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.admin-course-name small {
+  color: #6e7a60;
+  font-size: 9px;
+}
+.admin-status {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 9px;
+  line-height: 1.2;
+  padding: 4px 7px;
+  border-radius: 4px;
+  white-space: nowrap;
+  text-transform: capitalize;
+}
+.admin-status > i {
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  background: currentColor;
+}
+.admin-status.published {
+  color: #617f4e;
+  background: #eef4e6;
+}
+.admin-status.draft {
+  color: #707865;
+  background: #f1f4eb;
+}
+.admin-status.pending {
+  color: #837449;
+  background: #faf5e7;
+}
+.admin-recent-table th {
+  font-size: 9px;
+  padding: 0 15px;
+}
+.admin-recent-table td {
+  font-size: 10px;
+  padding: 14px 15px;
+  color: #6c7b5b;
+}
+.admin-recent-table th:first-child,
+.admin-recent-table td:first-child {
+  padding-left: 20px;
+}
+.admin-recent-table .admin-course-name > img {
+  width: 31px;
+  height: 31px;
+}
+.admin-recent-table .admin-course-name > span {
+  max-width: 200px;
+}
+.admin-recent-table .admin-course-name strong {
+  font-size: 10px;
+}
+.admin-recent-table .admin-course-name small {
+  font-size: 8px;
+}
+.admin-activity-list {
+  padding: 0 19px 17px;
+}
+.admin-activity-list .activity-item {
+  padding: 10px 0;
+}
+.admin-activity-list .activity-copy {
+  font-size: 9px;
+}
+.admin-activity-list .activity-copy small {
+  font-size: 8px;
+}
+.admin-quiet-state {
+  text-align: center;
+  padding: 47px 18px;
+  color: #6d7a60;
+}
+.admin-quiet-state h3 {
+  font-weight: 500;
+  color: #697d54;
+  font-size: 13px;
+  margin: 15px 0 9px;
+}
+.admin-quiet-state p {
+  font-size: 10px;
+  line-height: 1.9;
+}
+.admin-development-note {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  margin-top: 19px;
+  color: #6e7b60;
+  font-size: 9px;
+  line-height: 1.9;
+}
+.admin-development-note > a {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  color: #647d4d;
+  margin-left: auto;
+}
+.table-action-buttons {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.table-action-buttons .button {
+  font-size: 9px;
+  height: 28px;
+  padding: 0 8px;
+  gap: 5px;
+}
+.admin-file-icon {
+  display: grid;
+  place-items: center;
+  width: 35px;
+  height: 37px;
+  background: #f0f5e8;
+  color: #697b58;
+  border-radius: 6px;
+  flex-shrink: 0;
+}
+.admin-list-caption {
+  color: #6c7c59;
+  font-size: 11px;
+}
+.table-secondary-line {
+  display: block;
+  color: #6d7962;
+  font-size: 9px;
+  margin-top: 5px;
+}
+.admin-table-link {
+  padding: 0;
+  background: transparent;
+  color: #657c4e;
+  font-size: 11px;
+  text-align: left;
+}
+.admin-checkbox {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  cursor: pointer;
+}
+.admin-checkbox > input {
+  accent-color: #477c3b;
+  margin-top: 3px;
+}
+.admin-checkbox > span {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.admin-checkbox strong {
+  font-size: 11px;
+  color: #677d54;
+  font-weight: 500;
+}
+.admin-checkbox small {
+  font-size: 10px;
+  color: #6e7b60;
+  line-height: 1.7;
+}
+.file-picker {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.file-upload-target {
+  display: flex;
+  gap: 13px;
+  padding: 17px;
+  position: relative;
+  background: #fafcf6;
+  border: 1px dashed #cfdebf;
+  border-radius: 6px;
+  align-items: center;
+  cursor: pointer;
+  color: #687d55;
+}
+.file-upload-target > input {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  opacity: 0;
+}
+.file-upload-target:has(input:focus-visible) {
+  outline: 2px solid #96af7e;
+  outline-offset: 3px;
+}
+.file-upload-target > span {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.file-upload-target strong {
+  font-size: 11px;
+  font-weight: 500;
+  color: #677c53;
+}
+.file-upload-target small {
+  color: #6d7a60;
+  font-size: 9px;
+}
+.file-upload-target:hover {
+  background: #f3f8ec;
+}
+.file-upload-target.is-uploading {
+  padding-bottom: 24px;
+  cursor: progress;
+}
+.upload-progress-track {
+  position: absolute;
+  height: 3px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #e1ecd5;
+  border-radius: 0 0 6px 6px;
+  overflow: hidden;
+}
+.upload-progress-track > span {
+  display: block;
+  height: 100%;
+  background: #82a566;
+  transition: width 0.2s;
+}
+.lesson-manager-heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 18px;
+  color: #6b7c5a;
+  font-size: 11px;
+}
+.admin-lesson-list {
+  border-top: 1px solid #e5edda;
+  margin-bottom: 22px;
+}
+.admin-lesson-list > div {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 16px 0;
+  border-bottom: 1px solid #e5edda;
+}
+.admin-lesson-list > div > span {
+  color: #6e7962;
+  font-size: 11px;
+}
+.admin-lesson-list > div > button:not(.icon-button):not(.danger-button) {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  align-items: flex-start;
+  text-align: left;
+  background: transparent;
+  padding: 0;
+}
+.admin-lesson-list strong {
+  color: #657c51;
+  font-size: 12px;
+  font-weight: 500;
+}
+.admin-lesson-list small {
+  color: #6d7a5f;
+  font-size: 9px;
+}
+.admin-lesson-list .danger-button {
+  font-size: 9px;
+}
+.question-editor-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.question-editor {
+  position: relative;
+  padding: 19px;
+  border: 1px solid #dfe9d3;
+  border-radius: 7px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  background: #fcfef8;
+  margin: 0;
+}
+.question-editor legend {
+  color: #697b59;
+  font-size: 11px;
+  padding: 0 7px;
+}
+.question-editor > .icon-button {
+  position: absolute;
+  right: 7px;
+  top: -21px;
+  background: #fff;
+}
+.question-option-inputs {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+}
+.button-danger {
+  background: #a87563;
+  color: #fff;
+  border-color: #a87563;
+}
+.button-danger:hover {
+  background: #925f50;
+}
+.admin-media-upload {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  padding: 29px 30px;
+  border: 1px dashed #cbdcb9;
+  background: #f5f9ee;
+  border-radius: 8px;
+  margin-bottom: 26px;
+  position: relative;
+  cursor: pointer;
+  color: #677c53;
+}
+.admin-media-upload > input {
+  position: absolute;
+  opacity: 0;
+  width: 1px;
+  height: 1px;
+}
+.admin-media-upload:has(input:focus-visible) {
+  outline: 2px solid #8aa76d;
+  outline-offset: 3px;
+}
+.admin-media-upload > div:not(.upload-progress-track) {
+  flex: 1;
+}
+.admin-media-upload h2 {
+  font-size: 17px;
+  font-weight: 500;
+  color: #637f4a;
+  letter-spacing: -0.3px;
+}
+.admin-media-upload p {
+  color: #6c7b5d;
+  font-size: 10px;
+  line-height: 1.8;
+  margin-top: 9px;
+  max-width: 480px;
+}
+.admin-media-upload .button {
+  pointer-events: none;
+}
+.admin-media-upload:hover {
+  border-color: #9fbd84;
+  background: #f0f7e6;
+}
+.support-message-content {
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+  font-size: 13px;
+  line-height: 1.9;
+  color: #667c53;
+  margin-bottom: 25px;
+}
+.support-message-actions {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding: 15px 0 20px;
+}
+.support-message-actions > span {
+  font-size: 9px;
+  color: #6d7a60;
+}
+.payment-setting-status {
+  display: flex;
+  gap: 13px;
+  align-items: center;
+  color: #697c56;
+}
+.payment-setting-status > div {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.payment-setting-status strong {
+  color: #657d50;
+  font-size: 13px;
+  font-weight: 500;
+}
+.payment-setting-status span {
+  font-size: 10px;
+  color: #6e7b5f;
+}
+.unframed-fieldset {
+  border: 0;
+  margin: 0;
+  padding: 0;
+  min-width: 0;
+}
+.unframed-fieldset:disabled {
+  opacity: 0.7;
+}
+.platform-admin .full-table-panel .data-table td {
+  height: 74px;
+}
+.platform-admin .person-cell strong {
+  max-width: 300px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.platform-admin .reports-panel .report-description p {
+  line-height: 1.8;
+}
+@media (max-width: 1200px) {
+  .admin-workspace-switcher {
+    margin-left: 13px;
+    margin-right: 13px;
+    padding: 9px 7px;
+    gap: 7px;
+  }
+  .admin-workspace-switcher strong {
+    font-size: 10px;
+  }
+  .admin-workspace-switcher small {
+    font-size: 8px;
+  }
+  .admin-course-name > span {
+    max-width: 200px;
+  }
+  .admin-recent-table th,
+  .admin-recent-table td {
+    padding-left: 11px;
+    padding-right: 11px;
+  }
+  .admin-recent-table .admin-course-name > span {
+    max-width: 145px;
+  }
+  .admin-recent-table .admin-course-name strong {
+    font-size: 9px;
+  }
+  .metric-real-note {
+    font-size: 8px;
+  }
+  .admin-chart-period {
+    font-size: 8px;
+  }
+  .platform-admin .chart-total {
+    gap: 7px;
+  }
+  .platform-admin .customer-legend button {
+    font-size: 8px;
+  }
+  .admin-activity-list .activity-copy {
+    font-size: 8px;
+  }
+  .admin-activity-list {
+    padding-left: 17px;
+    padding-right: 17px;
+  }
+}
+@media (max-width: 1050px) {
+  .platform-admin .nav-item {
+    font-size: 10.5px;
+  }
+  .admin-workspace-switcher strong {
+    font-size: 9px;
+  }
+  .admin-workspace-switcher small {
+    font-size: 7px;
+  }
+  .admin-recent-table td:nth-child(2),
+  .admin-recent-table th:nth-child(2) {
+    display: none;
+  }
+  .platform-admin .metric-bottom {
+    height: 35px;
+  }
+  .metric-real-note {
+    font-size: 7px;
+    gap: 4px;
+  }
+  .metric-real-note .live-dot {
+    width: 4px;
+    height: 4px;
+  }
+  .platform-admin .metric-bottom > svg {
+    display: none;
+  }
+  .admin-chart-period {
+    display: none;
+  }
+  .platform-admin .full-table-panel .data-table {
+    min-width: 750px;
+  }
+  .admin-media-upload {
+    padding: 24px;
+    gap: 18px;
+  }
+  .admin-media-upload h2 {
+    font-size: 15px;
+  }
+}
+@media (max-width: 900px) {
+  .platform-admin .nav-item {
+    font-size: 12px;
+    height: 37px;
+  }
+  .admin-workspace-switcher strong {
+    font-size: 11px;
+  }
+  .admin-workspace-switcher small {
+    font-size: 9px;
+  }
+  .platform-admin .sidebar {
+    width: 232px;
+  }
+  .admin-chart-period {
+    display: inline;
+  }
+  .platform-admin .customer-panel {
+    min-height: 331px;
+  }
+  .admin-recent-table .admin-course-name > span {
+    max-width: 170px;
+  }
+  .admin-development-note {
+    flex-wrap: wrap;
+  }
+  .admin-development-note > a {
+    margin-left: 0;
+  }
+}
+@media (max-width: 760px) {
+  .platform-admin .customer-panel {
+    min-height: 250px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .platform-admin .customer-panel .panel-heading {
+    grid-column: 1 / -1;
+  }
+  .admin-donut-wrap {
+    width: 163px;
+    height: 163px;
+    margin-top: 16px;
+    margin-bottom: 15px;
+  }
+  .platform-admin .customer-legend {
+    padding-right: 25px;
+  }
+  .platform-admin .customer-legend button {
+    font-size: 10px;
+    padding: 10px 0;
+  }
+  .metric-real-note {
+    font-size: 9px;
+  }
+  .platform-admin .metric-bottom > svg {
+    display: inline;
+  }
+  .platform-admin .metric-bottom {
+    height: 28px;
+  }
+  .admin-recent-table td:nth-child(2),
+  .admin-recent-table th:nth-child(2) {
+    display: table-cell;
+  }
+  .admin-recent-table .admin-course-name > span {
+    max-width: 240px;
+  }
+  .admin-recent-table .admin-course-name strong {
+    font-size: 11px;
+  }
+  .admin-recent-table .admin-course-name small {
+    font-size: 9px;
+  }
+  .admin-recent-table td {
+    padding-top: 17px;
+    padding-bottom: 17px;
+  }
+  .admin-activity-list .activity-copy {
+    font-size: 11px;
+  }
+  .admin-activity-list .activity-copy small {
+    font-size: 9px;
+  }
+  .admin-media-upload {
+    flex-wrap: wrap;
+    padding: 24px;
+  }
+  .admin-media-upload .button {
+    margin-left: 57px;
+  }
+  .admin-media-upload > div:not(.upload-progress-track) {
+    min-width: 250px;
+  }
+  .platform-admin .page-heading .welcome-sun {
+    display: none;
+  }
+}
+@media (max-width: 580px) {
+  .platform-admin .topbar-right {
+    gap: 12px;
+  }
+  .admin-website-link {
+    font-size: 0;
+    gap: 0;
+  }
+  .admin-website-link > svg {
+    width: 18px;
+    height: 18px;
+  }
+  .platform-admin .topbar-profile {
+    padding-left: 10px;
+  }
+  .platform-admin .topbar-icons {
+    gap: 7px;
+  }
+  .platform-admin .nav-item {
+    height: 35px;
+  }
+  .metric-real-note {
+    font-size: 7px;
+  }
+  .platform-admin .metric-bottom > svg {
+    display: none;
+  }
+  .platform-admin .metric-bottom {
+    height: 26px;
+  }
+  .platform-admin .metric-value {
+    font-size: 29px;
+  }
+  .platform-admin .customer-panel {
+    grid-template-columns: 1fr 1fr;
+  }
+  .platform-admin .customer-legend {
+    padding-right: 19px;
+  }
+  .platform-admin .customer-legend button {
+    font-size: 9px;
+    padding: 9px 0;
+  }
+  .admin-donut-wrap {
+    width: 146px;
+    height: 146px;
+  }
+  .admin-donut::after {
+    inset: 18px;
+  }
+  .admin-recent-table th:first-child,
+  .admin-recent-table td:first-child {
+    padding-left: 17px;
+  }
+  .admin-recent-table td:nth-child(2),
+  .admin-recent-table th:nth-child(2),
+  .admin-recent-table td:nth-child(3),
+  .admin-recent-table th:nth-child(3) {
+    display: none;
+  }
+  .admin-recent-table .admin-course-name > span {
+    max-width: 175px;
+  }
+  .admin-recent-table .admin-course-name strong {
+    font-size: 10px;
+  }
+  .admin-recent-table .admin-course-name small {
+    font-size: 8px;
+  }
+  .admin-recent-table .admin-course-name {
+    gap: 8px;
+  }
+  .admin-recent-table .admin-course-name > img {
+    width: 29px;
+    height: 29px;
+  }
+  .admin-status {
+    font-size: 8px;
+    padding: 4px 6px;
+  }
+  .admin-recent-table td {
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+  .admin-activity-list .activity-copy {
+    font-size: 10px;
+  }
+  .admin-development-note {
+    font-size: 8px;
+    gap: 5px;
+  }
+  .admin-development-note > svg {
+    flex-shrink: 0;
+  }
+  .admin-media-upload {
+    padding: 22px 19px;
+    gap: 15px;
+  }
+  .admin-media-upload > div:not(.upload-progress-track) {
+    min-width: 0;
+    flex-basis: calc(100% - 55px);
+  }
+  .admin-media-upload h2 {
+    font-size: 14px;
+    line-height: 1.6;
+  }
+  .admin-media-upload p {
+    font-size: 9px;
+  }
+  .admin-media-upload .button {
+    margin-left: 48px;
+  }
+  .question-editor {
+    padding: 15px;
+  }
+  .question-option-inputs {
+    grid-template-columns: 1fr;
+  }
+  .support-message-content {
+    font-size: 12px;
+  }
+  .platform-admin .report-row .button {
+    font-size: 0;
+  }
+  .platform-admin .report-description h3 {
+    font-size: 11px;
+  }
+  .platform-admin .report-description p {
+    font-size: 9px;
+  }
+  .platform-admin .full-table-panel .table-tools {
+    flex-wrap: wrap;
+  }
+  .platform-admin .full-table-panel .table-tools .select-wrap {
+    flex-shrink: 0;
+  }
+  .platform-admin .full-table-panel .table-tools .table-search {
+    min-width: 155px;
+  }
+  .admin-lesson-list strong {
+    font-size: 11px;
+  }
+}
